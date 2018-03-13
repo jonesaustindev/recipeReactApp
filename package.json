@@ -16,5 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jonesaustindev.github.io/recipeReactApp"
+  "homepage": "https://jonesaustindev.github.io/recipeReactApp",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
+  "deploy": "npm run build&&gh-pages -d build"
 }
